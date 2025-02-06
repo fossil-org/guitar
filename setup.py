@@ -5,11 +5,11 @@ def read_long_description():
         return f.read()
 
 setup(
-    name='gavel',
+    name='guitar',
     version='1',
     author='fossil',
     author_email='fossil.org1@gmail.com',
-    description='lightweight installer for FOSSIL products',
+    description='minimal gui .tar extractor and creator',
     long_description=read_long_description(),
     long_description_content_type='text/markdown',
     packages=find_packages(),
